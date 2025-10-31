@@ -33,8 +33,16 @@ class SplashScreen1 extends StatelessWidget {
             fontSize: 40,
             fontWeight: FontWeight.bold,
           ),
-          
+        ),
+        SizedBox(height: 20),
+        Text(
+          "Hallo, Selamat datang di aplikasi saya!",
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.grey[700],
+          ),
         )
+
         ],
     ), 
     ),
