@@ -8,7 +8,8 @@ class SplashScreen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      body: Center(
+      child: Column(
        mainAxisAlignment: MainAxisAlignment.center,
        children: [
         SizedBox(height: 30),
@@ -18,9 +19,11 @@ class SplashScreen1 extends StatelessWidget {
           decoration: BoxDecoration(
           shape: BoxShape.circle,
           color: Colors.amber),
+          
           ),
        ],
         ),
+    ),
     );
   }
 }
