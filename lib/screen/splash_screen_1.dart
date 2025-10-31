@@ -25,6 +25,15 @@ class SplashScreen1 extends StatelessWidget {
           ),
           ),
           //tambahkan disini untuk widget widget lainnya nanti
+        ),
+        SizedBox(height: 30),
+        Text(
+          "Welcome",
+          style: TextStyle(
+            fontSize: 40,
+            fontWeight: FontWeight.bold,
+          ),
+          
         )
         ],
     ), 
