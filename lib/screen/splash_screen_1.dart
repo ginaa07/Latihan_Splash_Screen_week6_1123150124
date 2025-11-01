@@ -11,13 +11,14 @@ class SplashScreen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
+      child: SingleChildScrollView(
       child: Column(
        mainAxisAlignment: MainAxisAlignment.center,
        //Todo:
        // karena akan membuat multiple widget
        //maka membuat children yang bisa menampung banyak widget
        children: [
-        SizedBox(height: 50),
+        SizedBox(height: 80),
         Container(
           width: 250,
           height: 250,
@@ -31,7 +32,7 @@ class SplashScreen1 extends StatelessWidget {
           ),
           //tambahkan disini untuk widget widget lainnya nanti
         ),
-        SizedBox(height: 30),
+        SizedBox(height: 10),
         Text(
           "Welcome",
           style: TextStyle(
@@ -39,11 +40,11 @@ class SplashScreen1 extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
-        SizedBox(height: 20),
+        SizedBox(height: 40),
         Text(
           "Hallo, Forgot to bring your wallet when you are shopping!",
           style: TextStyle(
-            fontSize: 20,
+            fontSize: 18,
             color: Colors.grey[700],
           ),
         ),
@@ -79,7 +80,7 @@ class SplashScreen1 extends StatelessWidget {
             ),
           ],
         ),
-        SizedBox(height: 40),
+        SizedBox(height: 30),
             Container(
               margin: EdgeInsets.only(left: 40, right: 40), // tambahkan ini pada dalam container
               child: ElevatedButton(
@@ -102,6 +103,7 @@ class SplashScreen1 extends StatelessWidget {
             ),
        ],
     ), 
+    ),
     ),
     );
   }

@@ -113,9 +113,31 @@ class Login extends StatelessWidget {
                       style: TextStyle(color: Colors.grey[600])),
                     ),
                     Expanded(child: Divider(
-                      color: Colors.grey[300])),
+                    color: Colors.grey[300])),                  
                 ],
-              )
+              ),
+              
+            //Sosial Login Button
+            SizedBox(
+            width: 500,
+            height: 30, 
+            child: OutlinedButton.icon(
+              onPressed: () {},
+              icon: Icon(Icons.g_mobiledata, color: Colors.grey[800]),
+              label: Text(
+                "Login dengan Google",
+                style: TextStyle(color: Colors.grey[800]),
+              ),
+              style: OutlinedButton.styleFrom(
+                padding: EdgeInsets.symmetric(vertical: 12),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                side: BorderSide(color: Colors.grey[600]!),
+              ),
+            ),
+          ),
+
           ],
 
         ),
