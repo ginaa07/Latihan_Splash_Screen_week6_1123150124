@@ -76,6 +76,7 @@ class Login extends StatelessWidget {
                   child: Text(
                     "Lupa Password",
                   style: TextStyle(fontSize: 14.0, 
+                  color: Colors.blue,
                   fontWeight: FontWeight.bold),
                   ),
               ),
