@@ -73,7 +73,8 @@ class Login extends StatelessWidget {
                 alignment: Alignment.centerRight,
                 child: TextButton(
                   onPressed: () {},
-                  child: Text("Lupa Password",
+                  child: Text(
+                    "Lupa Password",
                   style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold),
                   ),
               )
