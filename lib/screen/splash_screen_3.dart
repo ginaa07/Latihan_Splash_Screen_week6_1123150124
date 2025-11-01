@@ -79,7 +79,7 @@ class SplashScreen3 extends StatelessWidget {
             ),
           ],
         ),
-        SizedBox(height: 40),
+        SizedBox(height: 20),
             Container(
               margin: EdgeInsets.only(left: 40, right: 40), // tambahkan ini pada dalam container
               child: ElevatedButton(

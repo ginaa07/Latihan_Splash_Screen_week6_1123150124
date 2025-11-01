@@ -75,7 +75,7 @@ class Login extends StatelessWidget {
                 child: TextButton(
                   onPressed: () {},
                   child: Text(
-                    "Lupa Password",
+                    "Lupa Password?",
                   style: TextStyle(
                   fontSize: 14.0, 
                   color: Colors.blue,
@@ -120,7 +120,7 @@ class Login extends StatelessWidget {
             //Sosial Login Button
             SizedBox(
             width: 500,
-            height: 30, 
+            height: 40, 
             child: OutlinedButton.icon(
               onPressed: () {},
               icon: Icon(Icons.g_mobiledata, color: Colors.grey[800]),
