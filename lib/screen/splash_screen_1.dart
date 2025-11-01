@@ -18,7 +18,7 @@ class SplashScreen1 extends StatelessWidget {
        // karena akan membuat multiple widget
        //maka membuat children yang bisa menampung banyak widget
        children: [
-        SizedBox(height: 80),
+        SizedBox(height: 50),
         Container(
           width: 250,
           height: 250,
