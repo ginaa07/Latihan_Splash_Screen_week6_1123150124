@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -75,7 +76,8 @@ class Login extends StatelessWidget {
                   onPressed: () {},
                   child: Text(
                     "Lupa Password",
-                  style: TextStyle(fontSize: 14.0, 
+                  style: TextStyle(
+                  fontSize: 14.0, 
                   color: Colors.blue,
                   fontWeight: FontWeight.bold),
                   ),
@@ -96,11 +98,24 @@ class Login extends StatelessWidget {
                           fontSize: 18.0, 
                           color: Colors.white, 
                           fontWeight: FontWeight.bold),
-
                       ),
                     ),
                   ),
                 ),
+              SizedBox(height: 10),
+              Row(
+                children: [
+                  Expanded(child: Divider(
+                    color: Colors.grey[300])),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Text('atau',
+                      style: TextStyle(color: Colors.grey[600])),
+                    ),
+                    Expanded(child: Divider(
+                      color: Colors.grey[300])),
+                ],
+              )
           ],
 
         ),
