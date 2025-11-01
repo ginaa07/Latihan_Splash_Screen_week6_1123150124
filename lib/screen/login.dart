@@ -10,7 +10,7 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
+      body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -22,6 +22,7 @@ class Login extends StatelessWidget {
                 fontSize: 30.0, color: Colors.black,
               ),
             ),
+            
           ],
         ),
       ),
