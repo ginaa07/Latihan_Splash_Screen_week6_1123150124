@@ -36,9 +36,9 @@ class Login extends StatelessWidget {
                   labelText: "Email",
                   hintText: "Masukkan Email Anda",
                   prefixIcon: Icon(Icons.email_outlined),
-                  border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(10),
-                  borderSide: BorderSide(color: Colors.green)
+                  enabledBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10),  
+                  borderSide: BorderSide(color: Colors.blue, width: 2),
                   ),
                   focusedBorder: OutlineInputBorder(
                   borderRadius:  BorderRadius.circular(10),
@@ -57,9 +57,9 @@ class Login extends StatelessWidget {
                 hintText: "Masukkan Password Anda",
                 prefixIcon: Icon(Icons.lock_outline_rounded),
                 suffixIcon: Icon(Icons.visibility_rounded),
-                border: OutlineInputBorder(
+                enabledBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(10),
-                borderSide: BorderSide(color: Colors.green),
+                borderSide: BorderSide(color: Colors.blue, width: 2),
                 ),
                 focusedBorder: OutlineInputBorder(
                 borderRadius:  BorderRadius.circular(10),
