@@ -102,7 +102,7 @@ class Login extends StatelessWidget {
                     ),
                   ),
                 ),
-              SizedBox(height: 10),
+              SizedBox(height: 20),
               Row(
                 children: [
                   Expanded(child: Divider(
@@ -118,7 +118,8 @@ class Login extends StatelessWidget {
               ),
               
             //Sosial Login Button
-            SizedBox(
+            SizedBox( height: 20),
+            Container(
             width: 500,
             height: 40, 
             child: OutlinedButton.icon(
