@@ -87,7 +87,7 @@ class SplashScreen2 extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => SplashScreen3()),
+                    MaterialPageRoute(builder: (context) => SplashScreen3()), //ganti sesuai screen selanjutnya
                   );
                 },
                 style: ElevatedButton.styleFrom(
