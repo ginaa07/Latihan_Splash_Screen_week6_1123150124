@@ -1,6 +1,7 @@
 // ini adalah contoh code pada saat di generate nama class kalian rubah sesuai
 
-import 'package:aplikasiuts_1123150124/screen/splash_screen_2.dart';
+
+import 'package:aplikasiuts_1123150124/screen/splash_screen_3.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen2 extends StatelessWidget {
@@ -24,7 +25,7 @@ class SplashScreen2 extends StatelessWidget {
           shape: BoxShape.circle,
           color: Colors.amber,
           image: DecorationImage(
-          image: AssetImage('assets/images/image1.jpg'),
+          image: AssetImage('assets/images/image2.jpg'),
           fit: BoxFit.cover,
           ),
           ),
@@ -86,7 +87,7 @@ class SplashScreen2 extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => SplashScreen2()),
+                    MaterialPageRoute(builder: (context) => SplashScreen3()),
                   );
                 },
                 style: ElevatedButton.styleFrom(
