@@ -77,6 +77,7 @@ class SplashScreen1 extends StatelessWidget {
         ),
         SizedBox(height: 40),
             Container(
+              margin: EdgeInsets.only(left: 40, right: 40),
               child: ElevatedButton(
                 onPressed: () {
                   Navigator.push(
