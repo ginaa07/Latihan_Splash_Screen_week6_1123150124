@@ -9,6 +9,22 @@ class Login extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.qr_code_outlined, size: 78, color: Colors.blue),
+            SizedBox(height: 20),
+            Text(
+              "Welcome",
+              style: TextStyle(
+                fontSize: 30.0, color: Colors.black,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
