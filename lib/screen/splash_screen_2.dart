@@ -41,7 +41,7 @@ class SplashScreen2 extends StatelessWidget {
         ),
         SizedBox(height: 20),
         Text(
-          "Hallo, Selamat datang di aplikasi saya!",
+          "Hallo, welcome to myApp!",
           style: TextStyle(
             fontSize: 20,
             color: Colors.grey[700],
