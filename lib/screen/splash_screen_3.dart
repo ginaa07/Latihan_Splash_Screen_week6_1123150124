@@ -1,10 +1,10 @@
 // ini adalah contoh code pada saat di generate nama class kalian rubah sesuai
 
-import 'package:aplikasiuts_1123150124/screen/splash_screen_2.dart';
+import 'package:aplikasiuts_1123150124/main.dart';
 import 'package:flutter/material.dart';
 
-class SplashScreen2 extends StatelessWidget {
-  const SplashScreen2({super.key});
+class SplashScreen1 extends StatelessWidget {
+  const SplashScreen1({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +32,7 @@ class SplashScreen2 extends StatelessWidget {
         ),
         SizedBox(height: 30),
         Text(
-          "Welcome 2",
+          "Welcome",
           style: TextStyle(
             fontSize: 40,
             fontWeight: FontWeight.bold,
@@ -46,7 +46,6 @@ class SplashScreen2 extends StatelessWidget {
             color: Colors.grey[700],
           ),
         ),
-        //membuat bullet kecil
         SizedBox(height: 20),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -79,14 +78,14 @@ class SplashScreen2 extends StatelessWidget {
             ),
           ],
         ),
-        SizedBox(height: 20),
+        SizedBox(height: 40),
             Container(
               margin: EdgeInsets.only(left: 40, right: 40), // tambahkan ini pada dalam container
               child: ElevatedButton(
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => SplashScreen2()),
+                    MaterialPageRoute(builder: (context) => SplashScreen1()),
                   );
                 },
                 style: ElevatedButton.styleFrom(
