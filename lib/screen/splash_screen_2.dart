@@ -1,6 +1,5 @@
 // ini adalah contoh code pada saat di generate nama class kalian rubah sesuai
 
-
 import 'package:aplikasiuts_1123150124/screen/splash_screen_3.dart';
 import 'package:flutter/material.dart';
 
